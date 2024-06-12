@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCII Art App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ASCII Art App</h1>
+    </header>
+    <main>
+        <section id="art-selection">
+            <h2>Select an ASCII Art</h2>
+            <button onclick="displayArt('cat')">Cat</button>
+            <button onclick="displayArt('dog')">Dog</button>
+            <button onclick="displayArt('tree')">Tree</button>
+        </section>
+        <section id="art-display">
+            <pre id="ascii-art" aria-live="polite"></pre>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
